@@ -1,0 +1,18 @@
+{
+  "name": "test-cachejs",
+  "version": "1.0.0",
+  "description": "A Cache Libary.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Abualqsem - Khattab",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
