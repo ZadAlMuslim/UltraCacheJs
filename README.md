@@ -2,16 +2,16 @@
 npm i ultracachejs
 ```
 
-## 🎯 الاستخدام السريع
+## 🎯 الاستخدام السريع | Quick use
 
-### الإعداد الأساسي
+### الإعداد الأساسي | Basic settings
 ```javascript
 const UltraCache = require('ultracachejs');
 
 const cache = new UltraCache({
-    maxSize: '1GB',              // الحد الأقصى لحجم الكاش
-    compression: true,           // تفعيل الضغط التلقائي
-    encryption: true,            // تفعيل التشفير
+    maxSize: '1GB',              // الحد الأقصى لحجم الكاش | Maximum luck for the size of the cache
+    compression: true,           // تفعيل الضغط التلقائي | Enable automatic compression
+    encryption: true,            // تفعيل التشفير | Enable Encryption
     ttl: 3600,                  // مدة الصلاحية الافتراضية (بالثواني) | Default validity(with seconds)
     aiEnabled: true,            // تفعيل التنبؤات الذكية | Enable smart predictions
     preloadThreshold: 0.8       // عتبة التحميل المسبق | preload forest
